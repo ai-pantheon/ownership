@@ -1,0 +1,65 @@
+## .NET
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Visual Studio
+.vs/
+*.rsuser
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+## Build results
+[Dd]ebugPublic/
+*.VisualState.xml
+TestResult.xml
+[Rr]eleases/
+BenchmarkDotNet.Artifacts/
+
+## NuGet
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nuget.props
+*.nuget.targets
+project.lock.json
+
+## Rider / JetBrains
+.idea/
+*.sln.iml
+
+## VS Code
+.vscode/
+
+## OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+## User secrets
+secrets.json
+appsettings.Development.json
+
+## Docker
+**/docker-compose.override.yml
+
+## Test coverage
+coverage/
+*.coverage
+*.coveragexml
+
+## Publish output
+publish/

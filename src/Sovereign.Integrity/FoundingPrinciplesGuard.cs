@@ -34,7 +34,7 @@ public class FoundingPrinciplesGuard
     public static string ComputeHash(string principles)
     {
         var bytes = SHA256.HashData(Encoding.UTF8.GetBytes(principles));
-        return Convert.ToHexStringLower(bytes);
+        return Convert.ToHexString(bytes).ToLowerInvariant();
     }
 
     /// <summary>

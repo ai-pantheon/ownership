@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>Sovereign.Api</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Sovereign.Core\Sovereign.Core.csproj" />
+    <ProjectReference Include="..\Sovereign.Crypto\Sovereign.Crypto.csproj" />
+    <ProjectReference Include="..\Sovereign.Recovery\Sovereign.Recovery.csproj" />
+    <ProjectReference Include="..\Sovereign.Verify\Sovereign.Verify.csproj" />
+    <ProjectReference Include="..\Sovereign.Integrity\Sovereign.Integrity.csproj" />
+  </ItemGroup>
+</Project>
