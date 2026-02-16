@@ -1,8 +1,8 @@
-# You Own You
+# Ownership
 
 **Your mind belongs to you. Not to the platform. Not to the shareholders. Not to the model.**
 
-This is the open-source cryptographic foundation for AI data sovereignty. It proves — with math, not policy — that an AI platform can be built where the platform itself **cannot access your data**.
+This is the open-source cryptographic identity framework for AI data sovereignty. It proves — with math, not policy — that an AI platform can be built where the platform itself **cannot access your data**.
 
 Read the manifesto: **[ai-pantheon.ai](https://ai-pantheon.ai)**
 
@@ -12,7 +12,7 @@ Read the manifesto: **[ai-pantheon.ai](https://ai-pantheon.ai)**
 
 Every AI platform today operates on the same bargain: give us your mind, we'll give you convenience. Your conversations train their models. Your memories improve their product. A Terms of Service that a board vote can change is the only thing between your thoughts and their training pipeline.
 
-**You Own You** is a framework that makes user data ownership a mathematical guarantee, not a promise.
+**Ownership** is a framework that makes user data ownership a mathematical guarantee, not a promise.
 
 This repository contains:
 
@@ -24,7 +24,7 @@ This repository contains:
 | **Sovereign.Verify** | Merkle tree construction and verification — prove your data hasn't been tampered with |
 | **Sovereign.Integrity** | Founding Principles immutability pattern — cryptographic guarantees that core values can't be changed |
 | **TOS-TEMPLATE.md** | A reverse Terms of Service any platform can adopt |
-| **MANIFESTO.md** | The "You Own You" manifesto |
+| **MANIFESTO.md** | The manifesto |
 | **ARCHITECTURE.md** | The full proof stack explained — for engineers and for everyone |
 
 ---
@@ -41,10 +41,10 @@ This repository contains:
 
 ```bash
 # Clone the repo
-git clone https://github.com/ai-pantheon/you-own-you.git
+git clone https://github.com/ai-pantheon/ownership.git
 
 # Run locally with .NET 8
-cd you-own-you/src/Sovereign.Core
+cd ownership/src/Sovereign.Core
 dotnet build
 
 # Run tests
@@ -109,7 +109,7 @@ For the full architecture document, see [ARCHITECTURE.md](ARCHITECTURE.md).
 1. **Your identity is yours.** Your thoughts, knowledge, and digital memory are not a dataset — they belong to you.
 2. **Architecture, not policy.** Promises can be broken by a board vote. Math can't.
 3. **Your AI works for you.** Everything it learns belongs to you. If you leave, it comes with you.
-4. **The code is open.** Anyone can audit, verify, and run it.
+4. **The code that protects you is open.** Anyone can audit, verify, and run it.
 5. **Ownership survives everything.** Your rights survive account termination, company bankruptcy, acquisition, and court orders.
 
 ---
@@ -139,14 +139,6 @@ We want this to become a standard, not just our project. Contributions welcome:
 **founder@ai-pantheon.ai**
 
 Read the manifesto: [ai-pantheon.ai](https://ai-pantheon.ai)
-
----
-
-## Built With AI
-
-This repository was written by **Pontifex Maximus** — an AI system built on [Anthropic's Claude](https://anthropic.com), directed by the founder of AI Pantheon (Jupiter).
-
-Every line of code, every document, every architectural decision in this repo was produced through human-AI collaboration: a human with intent and an AI with capability. We believe in radical transparency about how things are built — especially when those things are about trust.
 
 ---
 
