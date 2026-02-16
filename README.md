@@ -1,4 +1,4 @@
-# Ownership
+# Identity
 
 **Your mind belongs to you. Not to the platform. Not to the shareholders. Not to the model.**
 
@@ -12,7 +12,7 @@ Read the manifesto: **[ai-pantheon.ai](https://ai-pantheon.ai)**
 
 Every AI platform today operates on the same bargain: give us your mind, we'll give you convenience. Your conversations train their models. Your memories improve their product. A Terms of Service that a board vote can change is the only thing between your thoughts and their training pipeline.
 
-**Ownership** is a framework that makes user data ownership a mathematical guarantee, not a promise.
+**Identity** is a framework that makes user data ownership a mathematical guarantee, not a promise.
 
 This repository contains:
 
@@ -41,10 +41,10 @@ This repository contains:
 
 ```bash
 # Clone the repo
-git clone https://github.com/ai-pantheon/ownership.git
+git clone https://github.com/ai-pantheon/identity.git
 
 # Run locally with .NET 8
-cd ownership/src/Sovereign.Core
+cd identity/src/Sovereign.Core
 dotnet build
 
 # Run tests
